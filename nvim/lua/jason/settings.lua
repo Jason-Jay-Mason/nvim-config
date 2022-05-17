@@ -18,7 +18,6 @@ vim.cmd([[
   set foldmarker=#region,#endregion
   set undofile
   set undodir=$HOME/.nvim/undo
-	set mouse=a
   if has('nvim')
     set inccommand=split
   endif
